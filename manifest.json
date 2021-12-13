@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Repl.it Themes",
+  "version": "0.1.0",
+
+  "description": "Adds the ability to choose different IDE themes for https://replit.com.",
+  "homepage_url": "https://github.com/ma1ted/replit-themes",
+  "icons": {
+    "48": "icons/dots.svg",
+    "96": "icons/dots.svg"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/dots.svg",
+    "default_title": "Repl.it Themes",
+    "default_popup": "popup/choose-theme.html"
+  }
+}
